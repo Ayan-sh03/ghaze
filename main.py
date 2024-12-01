@@ -174,7 +174,7 @@ class GitHubTrendingReporter:
 
         all_trending = self.fetch_trending_repos()
 
-        print(all_trending)
+        # print(all_trending)
         all_repos_summary = self.generate_repo_summary(all_trending)
 
         golang_trending = self.fetch_trending_repos(language='go')
